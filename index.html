@@ -1,1 +1,78 @@
-<p>Coming Soon</p>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interactive Wind Tunnel - ME 463 Senior Design</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <h1>Interactive Wind Tunnel Museum Exhibit</h1>
+                <p>ME 463 Senior Design - Purdue University School of Mechanical Engineering</p>
+                <p>Logan Frank · Daniel Seng · Riley Stuber · David Lu &nbsp;|&nbsp; Advisor: Prof. Euiwon Bae</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <!-- Video Section-->
+             <div class="section">
+                <h2>Exhibit in Action</h2>
+                <p>Users interact with wind tunnel by adjusting airfoil angle of attack and fan speed, directly feeling lift and drag forces through handle.</p>
+                <div class="video-placeholder">Video Coming Soon</div>
+             </div>
+
+             <!-- Intro Section -->
+              <h2>Testing and Validation</h2>
+              <p>
+                The plots below compare aerodynamic forces predited by physics-based models against forces measured during testing.
+                The models use real wind tunnel data from Sheldahl &amp; Klimas (1981) interpolated to Re = 100,000, covering the full 0°–90° angle of attack range continuously.
+              </p>
+              <p>
+                Rather than a single prediction line, the model outputs a bounded region representing genuine physical uncertainty in how the tunnel walls affect the airfoil behavior.
+                The upper bound assumes the walls act as perfect end plates, suppressing tip vortices entirely.
+                The lower bound applies a full Prandtl lifting line aspect ratio correction for AR = 1, treating the airfoil as if in free air with no wall benefit.
+                The true behavior lies somewhere between these limits.
+              </p>
+            </div>
+        
+            <!-- Lift Plot -->
+            <div class="section">
+                <h2>Lift Force Validation</h2>
+                <img src="Lift_Validation_Poster.png" alt="Lift Force Validation Plot" class="plot-img">
+                <p class="caption">Lift force measured at 7 angles of attack at 15 mph freestream velocity, compared to model predictions.</p>
+                <p>
+                    Measured lift forces generally fall within the predicted band across most angles, confirming the model captures correct aerodynamic trends.
+                    The 15° point sits above the upper bound — wall proximity and inlet turbulence suppress the sharp stall transition predicted by 2D theory.
+                    No distinct stall was felt during testing, consistent with the stall being smeared out by tunnel effects rather than occurring as a sharp separation event.
+                </p>
+            </div>
+
+            <!-- Drag Plot -->
+            <div class="section">
+                <h2>Drag Force Validation</h2>
+                <img src="Drag_Validation_Poster.png" alt="Drag Force Validation Plot" class="plot-img">
+                <p class="caption">Drag force measured at 7 angles of attack at 15 mph freestream velocity, compared to model predictions.</p>
+                <p>
+                    Good agreement at low angles (0°–30°). At higher angles, measured drag falls below predictions due to solid blockage.
+                    At 90° the airfoil occupies approximately 56% of the test section area, constraining the flow field and reducing measured drag compared to free-air predictions.
+                    Standard blockage corrections are only valid below ~10% blockage. The airfoil was intentionally designed large so children can feel meaningful forces.
+                    This causes an inherent tradeoff between educational effectiveness and measurement accuracy.
+                </p>
+            </div>
+
+            <!-- Citation -->
+            <div class="section">
+                <h2>Data Source</h2>
+                <p class="citation">[1] Sheldahl, R. E., &amp; Klimas, P. C. (1981). <em>Aerodynamic characteristics of seven symmetrical airfoil sections through 180-degree angle of attack for use in aerodynamic analysis of vertical axis wind turbines.</em> Sandia National Laboratories. SAND80-2114.<br><br>
+                <a href="https://ntrs.nasa.gov/citations/19810011010" target="_blank">https://ntrs.nasa.gov/citations/19810011010</a> — Data extracted from Table 4, pages 44–45. Re = 100,000 dataset interpolated logarithmically between measured Re = 80,000 and Re = 160,000 values.</p>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>Purdue University · <span>Mechanical Engineering</span> · ME 463 Senior Design 2026</p>
+        </footer>
+    </body>
+</html>

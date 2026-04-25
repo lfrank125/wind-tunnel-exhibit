@@ -1,0 +1,112 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #1a1a1a;
+}
+
+header {
+    background-color: #000000;
+    color: #CFB991;
+    padding: 24px 40px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+header img {
+    height: 60px;
+}
+
+header div h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #CFB991;
+}
+
+header div p {
+    font-size: 13px;
+    color: #aaaaaa;
+    margin-top: 4px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 24px;
+}
+
+.section {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 32px;
+    margin-bottom: 32px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #CFB991;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #333333;
+    margin-bottom: 12px;
+}
+
+.video-placeholder {
+    background: #f0f0f0;
+    border: 2px dashed #CFB991;
+    border-radius: 8px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #888888;
+    font-size: 15px;
+    margin-top: 16px;
+}
+
+.plot-img {
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 16px;
+    border: 1px solid #e0e0e0;
+}
+
+.caption {
+    font-size: 13px;
+    color: #666666;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.citation {
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.6;
+}
+
+.citation a {
+    color: #CFB991;
+}
+
+footer {
+    background: #000000;
+    color: #888888;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+footer span {
+    color: #CFB991;
+}
