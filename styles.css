@@ -68,7 +68,7 @@ p {
     line-height: 1.7;
     color: #333333;
     margin-bottom: 12px;
-    text-justify: distribute;
+    text-align: justify;
 }
 
 .video {
