@@ -91,6 +91,7 @@ p {
 .video {
     display: block;
     margin: 16px auto 0 auto;
+    margin-bottom: 4px;
     width: 85%;
     border-radius: 8px;
 }
