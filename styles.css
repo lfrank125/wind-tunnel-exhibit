@@ -40,7 +40,7 @@ header div p {
     margin-bottom: 4px;
 }
 
-.media-break {
+.advisor-break {
     display: inline;
 }
 
@@ -139,7 +139,7 @@ footer p {
         font-size: 16px;
     }
 
-    .media-break {
+    .advisor-break {
         display: block;
         margin-top: 4px;
     }
