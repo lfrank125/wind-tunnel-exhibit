@@ -116,6 +116,7 @@ footer {
 
 footer p {
         color: #CFB991;
+        text-align: center;
 }
 
 @media (max-width: 700px) {
