@@ -108,6 +108,7 @@ p {
     color: #666666;
     margin-top: 8px;
     font-style: italic;
+    text-justify: center;
 }
 
 .citation {
