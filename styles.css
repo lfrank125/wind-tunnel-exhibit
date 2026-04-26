@@ -9,8 +9,7 @@
     }
 
     header img {
-        margin-left: 0;
-        height: 50px;
+        display: none;
     }
 
     header div h1 {
@@ -125,9 +124,12 @@ p {
 
 footer {
     background: #000000;
-    color: #CFB991;
     text-align: center;
     padding: 20px;
     font-size: 13px;
     margin-top: 40px;
+}
+
+footer p {
+        color: #CFB991;
 }
