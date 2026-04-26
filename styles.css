@@ -98,7 +98,8 @@ p {
 .plot-img {
     width: 85%;
     display: block;
-    margin: 16px auto 10 auto;
+    margin: 16px auto 0 auto;
+    margin-bottom: 5px;
     border-radius: 6px;
     border: 1px solid #e0e0e0;
 }
