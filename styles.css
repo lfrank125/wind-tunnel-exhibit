@@ -85,8 +85,6 @@ p {
 
 .video {
     background: #f0f0f0;
-    border: 2px dashed #CFB991;
-    border-radius: 8px;
     height: 200px;
     display: flex;
     align-items: center;
