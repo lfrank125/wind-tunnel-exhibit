@@ -27,7 +27,7 @@ body {
 header {
     background-color: #000000;
     color: #CFB991;
-    padding: 24px 40px;
+    padding: 12px 36px;
     display: flex;
     align-items: center;
     gap: 24px;
@@ -37,8 +37,12 @@ header {
 }
 
 header img {
-    height: 85px;
+    height: 90px;
     margin-left: auto;
+}
+
+header div {
+    height: 90px;
 }
 
 header div h1 {
@@ -51,6 +55,7 @@ header div p {
     font-size: 13px;
     color: #aaaaaa;
     margin-top: 4px;
+    margin-bottom: 4px;
 }
 
 .container {
