@@ -92,13 +92,17 @@ p {
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin: 16px auto 0 auto;
+    margin-bottom: 5px;
 }
 
 .img-row img {
     width: 28%;
     height: auto;
     border-radius: 6px;
-    border: 1px solid #e0e0e0
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
 }
 
 .caption {
