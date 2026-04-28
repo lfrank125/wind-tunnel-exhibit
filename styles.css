@@ -95,7 +95,7 @@ p {
 }
 
 .img-row img {
-    width: 30%;
+    width: 28%;
     height: auto;
     border-radius: 6px;
     border: 1px solid #e0e0e0
@@ -168,5 +168,13 @@ footer p {
 
     .section {
         padding: 20px;
+    }
+
+    .img-row {
+        flex-direction: column;
+    }
+
+    .img-row img {
+        width: 100%;
     }
 }
