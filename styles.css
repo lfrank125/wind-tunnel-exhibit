@@ -88,6 +88,19 @@ p {
     border: 1px solid #e0e0e0;
 }
 
+.img-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.img-row img {
+    width: 30%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0
+}
+
 .caption {
     font-size: 13px;
     color: #666666;
